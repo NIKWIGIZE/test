@@ -1,0 +1,1 @@
+<h1>This page covers othe spirits except wisky, like vodka, cognage,gins,...</h1>

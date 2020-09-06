@@ -1,0 +1,1 @@
+<h1>This page will help the user to apply for promo code or discount coupon code</h1>

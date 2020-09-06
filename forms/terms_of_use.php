@@ -1,0 +1,1 @@
+<h1>This Page tells the user , the terms of use at  Avectime.com</h1>

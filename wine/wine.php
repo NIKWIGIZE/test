@@ -1,0 +1,1 @@
+<h1>This page contain all wine categories</h1>

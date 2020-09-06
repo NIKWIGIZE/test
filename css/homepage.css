@@ -1,0 +1,52 @@
+body{
+	
+	font-family:arial,gerarda,sans-serif;
+	
+}
+/*HOME PAGE HAEDER*/
+
+/*NAVIGATION BAR*/
+.navbar-nav  {
+  margin-top:10px; margin-bottom:10px;  margin-left:10px; margin-right:10px;
+  
+}
+.navbar-nav > li  {
+  border:0.4px solid transparent;
+  border-radius:0.1em;
+}
+
+.navbar-nav > li:hover {
+border:1px solid black;
+}
+.navbar-nav > li>a  {
+padding:6px;
+color:black!important;
+}
+
+/*ICON BAR */
+#container-iconbar{
+border:0.4px solid grey;
+width:40px;
+padding:6px 6px 6px 6px;
+margin-top:10px;
+border-radius:0.2em;
+margin-left:0px;
+}
+#container-iconbar:hover{
+border:1px solid black;		
+}
+.iconbar{
+width:25px;
+height:2px;
+background-color:black;
+margin:5px 0;
+margin-left:0px;	
+}
+
+/*Body */
+.padding-0{
+	
+	padding-left:0px!important;
+}
+
+
