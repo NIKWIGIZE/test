@@ -1,23 +1,17 @@
 
 <?php
-//Create connection
-
-$localhost="localhost";
-$username="root";
-$password="";
-$dbname="avectime.com";
-
-$conn=new mysqli($localhost,$username,$password,$dbname,3308);
-
-//check connection
-
-if($conn->connect_error){
-	
-	die('Failled Connection'.$conn->connect_error);
-}
+//connect to heroku database i created called bigrwanda-database
+ 
+ $hostname="us-cdbr-east-02.cleardb.com";
+ $username="b2ffb9bae31362";
+ $pass="83b1c0c2 ";
+ $dbname="heroku_173a3af4752f299";
+ $conn=new mysqli($hostname,$username,$pass,$dbname,3306);
+ if($conn->connect_error){
+	 die($conn->connect_error);
+ }
 else{
 	//echo"Connected";
 }
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
-$conn->set_charset('utf8mb4');
+
  ?>
