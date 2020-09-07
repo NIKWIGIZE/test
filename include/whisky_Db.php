@@ -32,13 +32,16 @@ class connect_product{
 		$this->password=$password;
 		
 		
-		//Connect to database;
-		
-		$this->conn=new mysqli($hostName,$username,$password,$DbName,3308);
-		//check connection 
-		if($this->conn->connect_error){
-			die("Can not connect to database".$this->conn->connect_error);
-		}
+		//connect to heroku database i created called bigrwanda-database
+ 
+ $hostname="us-cdbr-east-02.cleardb.com";
+ $username="b2ffb9bae31362";
+ $pass="83b1c0c2 ";
+ $dbname="heroku_173a3af4752f299";
+ $conn=new mysqli($hostname,$username,$pass,$dbname,3306);
+ if($conn->connect_error){
+	 die($conn->connect_error);
+ }
 		else{
 			
 			
